@@ -1,0 +1,63 @@
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 75vh;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 10px auto;
+    width: 65%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(cover.jpg);
+    border-radius: 12px;
+    padding: 34px;
+
+}
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+}
+.bottom img {
+    height: 32px;
+    width: 32px;
+    margin: 3px;
+    
+}
+#progressBar {
+    width: 80vw;
+    cursor: pointer;
+    position:relative;
+}
+.icons button {
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 0;
+}
+
+.songInfo img {
+    width: 80px;
+    transition: opacity 1s ease-in;
+
+}
+#gif{
+    opacity: 0;
+}
